@@ -46,7 +46,8 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown('<div class="input-container">', unsafe_allow_html=True)
 
 # API
-API = 'http://127.0.0.1:8000/predict'
+API = "https://gold-loan-prediction.onrender.com/predict"
+
 
 # Inputs
 SPX = st.number_input("S&P 500 Index (SPX)", value=4000.0, step=0.1)
